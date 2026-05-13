@@ -113,7 +113,7 @@ GOOS=windows GOARCH=amd64 go build -ldflags="-H windowsgui" -o shell.exe main.go
 cd server
 go run main.go
 ```
-### Deploy the agent
+### Deploy the shell
 Execute shell.exe on the target Windows system. Once it connects, the server prints:
 
 ---
